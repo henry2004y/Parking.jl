@@ -1,0 +1,46 @@
+name: CI
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "src/**"
+      - "Project.toml"
+      - "test/**"
+  push:
+    branches:
+      - main
+    tags: '*'
+    paths:
+      - "src/**"
+      - "Project.toml"
+      - "test/**"
+env:
+  JULIA_NUM_THREADS: 2
+jobs:
+  test:
+    name: Julia ${{ matrix.version }} - ${{ matrix.os }} - ${{ github.event_name }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        version:
+          - '1'
+        os:
+          - ubuntu-latest
+          - macos-latest
+          - windows-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: julia-actions/setup-julia@v3
+        with:
+          version: ${{ matrix.version }}
+      - uses: julia-actions/cache@v3
+      - uses: julia-actions/julia-buildpkg@v1
+      - uses: julia-actions/julia-runtest@v1
+      - uses: julia-actions/julia-processcoverage@v1
+      - uses: codecov/codecov-action@v6
+        with:
+          files: lcov.info
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

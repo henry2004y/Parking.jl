@@ -1,0 +1,18 @@
+# Generated documentation build output (DocumenterVitepress)
+docs/build/
+
+# Documentation example output (GIFs written by docs/examples/*.jl)
+docs/examples/results/
+
+# Generated visualization products
+*.gif
+
+# Temp / log files
+*.tmp
+*.log
+test_result.txt
+example_result.txt
+
+# System files
+.DS_Store
+Thumbs.db
