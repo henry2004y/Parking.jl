@@ -16,7 +16,7 @@ Parking 是一个用 Julia 编写的软件包，用于模拟与规划运动学�
 
 ```julia
 using Pkg
-Pkg.add(url = "https://github.com/henry/Parking.jl")
+Pkg.add(url = "https://github.com/henry2004y/Parking.jl")
 ```
 
 本文档本身依赖 [Documenter](https://github.com/JuliaDocs/Documenter.jl)
