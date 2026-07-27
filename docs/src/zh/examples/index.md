@@ -6,9 +6,9 @@
 
 示例包括：
 
-- **[三排停车场](zh/examples/three_rows_parking.md)** - 规划垂直泊入一排车位中唯一的中央空位。
-- **[垂直泊车](zh/examples/perpendicular_parking.md)** - 车头驶入两侧有车、后方有墙的车位。
-- **[垂直泊车（车头朝外）](zh/examples/perpendicular_nose_out.md)** - 倒车入库、车头朝外的同类受限车位。
-- **[平行泊车](zh/examples/parallel_parking.md)** - 在狭窄街道上平行泊车。
+- **[三排停车场](three_rows_parking.md)** - 规划垂直泊入一排车位中唯一的中央空位。
+- **[垂直泊车](perpendicular_parking.md)** - 车头驶入两侧有车、后方有墙的车位。
+- **[垂直泊车（车头朝外）](perpendicular_nose_out.md)** - 倒车入库、车头朝外的同类受限车位。
+- **[平行泊车](parallel_parking.md)** - 在狭窄街道上平行泊车。
 
 本文档中展示的规划轨迹动画存放在 `docs/src/figures/`。
