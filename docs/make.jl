@@ -28,7 +28,7 @@ makedocs(;
     sitename = "Parking.jl",
     authors = "Parking contributors",
     format = DocumenterVitepress.MarkdownVitepress(;
-        repo = "github.com/henry/Parking.jl",
+        repo = "github.com/henry2004y/Parking.jl",
         devbranch = "main",
         devurl = "dev",
     ),
@@ -66,7 +66,7 @@ makedocs(;
 )
 
 DocumenterVitepress.deploydocs(;
-    repo = "github.com/henry/Parking.jl",
+    repo = "github.com/henry2004y/Parking.jl",
     target = joinpath(@__DIR__, "build"),
     branch = "gh-pages",
     devbranch = "main",

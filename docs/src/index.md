@@ -19,7 +19,7 @@ Add the package from the repository:
 
 ```julia
 using Pkg
-Pkg.add(url = "https://github.com/henry/Parking.jl")
+Pkg.add(url = "https://github.com/henry2004y/Parking.jl")
 ```
 
 ## Getting started
