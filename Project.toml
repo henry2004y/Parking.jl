@@ -21,9 +21,7 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 [targets]
 test = ["Test"]
 
-# Trigger CI workflows (push to main)
-
 [compat]
 Bonito = "5.1.1"
 Plots = "1.41.6"
-WGLMakie = "0.13.13
+WGLMakie = "0.13.13"
