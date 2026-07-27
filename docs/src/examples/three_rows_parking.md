@@ -1,6 +1,6 @@
 # Three-row parking lot
 
-This example uses [`three_rows_parking`](@ref) to build a parking lot with several
+This example uses `three_rows_parking` to build a parking lot with several
 rows of perpendicular spots (neighboring spots and a back wall included) and plans a
 perpendicular park-in into the only free spot in the middle of a row. A 0.15 m
 clearance is used for safety.

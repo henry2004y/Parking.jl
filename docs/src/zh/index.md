@@ -43,13 +43,13 @@ end
 
 ## 目录
 
-- **[首页](zh/index.md)** - 本页。
-- **[场景规划](zh/scene_planner.md)** - 用代码或交互式工具规划。
-- **[完整流程](zh/walkthrough.md)** - 带代码的端到端示例。
-- **[示例](zh/examples/index.md)** - 可运行的示例。
-- **[API 参考](zh/api.md)** - 完整的公开 API。
+- **[首页](index.md)** - 本页。
+- **[场景规划](scene_planner.md)** - 用代码或交互式工具规划。
+- **[完整流程](walkthrough.md)** - 带代码的端到端示例。
+- **[示例](examples/index.md)** - 可运行的示例。
+- **[API 参考](api.md)** - 完整的公开 API。
 
 ## 下一步
 
-前往 [示例](zh/examples/index.md) 查看完整、可运行的脚本，或浏览
-[API 参考](zh/api.md) 了解每个导出函数的细节。English version: [Home](index.md).
+前往 [示例](examples/index.md) 查看完整、可运行的脚本，或浏览
+[API 参考](api.md) 了解每个导出函数的细节。English version: [Home](index.md).

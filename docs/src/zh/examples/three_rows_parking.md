@@ -1,6 +1,6 @@
 # 三排停车场
 
-本示例通过 [`three_rows_parking`](@ref) 构建一个包含多排垂直车位的停车场
+本示例通过 `three_rows_parking` 构建一个包含多排垂直车位的停车场
 （含邻位与后墙），并规划一条垂直泊入某排中间唯一空车位的路径。为安全起见使用 0.15 m 的 clearance。
 
 完整源码：
@@ -32,4 +32,4 @@ animate_parking(env, vehicle, res.path; fps = 10,
 
 规划动作的预生成动画如下：
 
-![三排停车场动画](../figures/three_rows_park.gif)
+![三排停车场动画](../../figures/three_rows_park.gif)
