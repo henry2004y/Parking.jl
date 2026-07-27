@@ -16,3 +16,6 @@ example_result.txt
 # System files
 .DS_Store
 Thumbs.db
+
+# Scratch development environment (not part of the package)
+parking_dev/
