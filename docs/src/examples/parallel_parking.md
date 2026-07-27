@@ -1,7 +1,7 @@
 # Parallel parking
 
 Parallel parking on a tight street. The example builds a roadside spot between two
-already-parked cars and a curb using [`parallel_parking`](@ref), then plans a park-in
+already-parked cars and a curb using `parallel_parking`, then plans a park-in
 with [`plan_park`](@ref).
 
 Full source:

@@ -1,7 +1,7 @@
 # 垂直泊车（车头驶入）
 
 将车辆以 90 度垂直泊入一个两侧均有停放车辆、后方有墙的车位。示例通过
-[`perpendicular_parking`](@ref) 构建一排等尺寸车位（目标位于中间），在车道上定义起始位形，
+`perpendicular_parking` 构建一排等尺寸车位（目标位于中间），在车道上定义起始位形，
 并用 [`plan_park`](@ref) 规划路径。
 
 完整源码：
@@ -33,4 +33,4 @@ animate_parking(env, vehicle, res.path; fps = 10,
 
 规划动作的预生成动画如下：
 
-![垂直泊车（车头驶入）动画](../figures/perpendicular_park.gif)
+![垂直泊车（车头驶入）动画](../../figures/perpendicular_park.gif)

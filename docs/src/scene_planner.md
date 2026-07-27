@@ -97,4 +97,4 @@ The figure below shows the kind of planned trajectory the tool (and the code API
 produce: the rear-axle-center path drawn as a dashed polyline with the vehicle
 outline at the start (green) and goal (red) poses.
 
-![Planned trajectory](../figures/three_rows_park.gif)
+![Planned trajectory](figures/three_rows_park.gif)

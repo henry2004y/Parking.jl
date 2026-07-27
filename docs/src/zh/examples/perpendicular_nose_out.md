@@ -33,4 +33,4 @@ animate_parking(env, vehicle, res.path; fps = 10,
 
 规划动作的预生成动画如下：
 
-![垂直泊车（车头朝外）动画](../figures/perpendicular_nose_out.gif)
+![垂直泊车（车头朝外）动画](../../figures/perpendicular_nose_out.gif)

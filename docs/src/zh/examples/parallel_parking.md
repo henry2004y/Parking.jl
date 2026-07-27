@@ -1,6 +1,6 @@
 # 平行泊车
 
-在狭窄街道上平行泊车。示例通过 [`parallel_parking`](@ref) 在两侧已停放车辆与路缘之间构建一个路边车位，然后用 [`plan_park`](@ref) 规划泊入路径。关于反向问题（驶离车位），可参考 [垂直泊车（车头朝外）](perpendicular_nose_out.md) 中 [`plan_leave`](@ref) 的用法。
+在狭窄街道上平行泊车。示例通过 `parallel_parking` 在两侧已停放车辆与路缘之间构建一个路边车位，然后用 [`plan_park`](@ref) 规划泊入路径。关于反向问题（驶离车位），可参考 [垂直泊车（车头朝外）](perpendicular_nose_out.md) 中 [`plan_leave`](@ref) 的用法。
 
 完整源码：
 
@@ -33,4 +33,4 @@ println("动画已保存至：", filename)
 
 规划动作的预生成动画如下：
 
-![平行泊车动画](../figures/parallel_park.gif)
+![平行泊车动画](../../figures/parallel_park.gif)

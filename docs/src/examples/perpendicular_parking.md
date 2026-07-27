@@ -2,7 +2,7 @@
 
 A perpendicular (90 degree) park-in into a spot that is flanked by parked cars on
 both sides and bounded by a wall behind it. The example uses
-[`perpendicular_parking`](@ref) to build a single row of identical spots with the
+`perpendicular_parking` to build a single row of identical spots with the
 target in the middle, defines the start pose on the driving lane, and plans with
 [`plan_park`](@ref).
 

@@ -102,4 +102,4 @@ canvas.
 
 The planned, refined trajectory for this scenario looks like this:
 
-![Perpendicular parking](../figures/perpendicular_park.gif)
+![Perpendicular parking](figures/perpendicular_park.gif)
