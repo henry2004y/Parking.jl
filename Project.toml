@@ -23,5 +23,6 @@ test = ["Test"]
 
 [compat]
 Bonito = "5.1.1"
+Makie = "0.24.13"
 Plots = "1.41.6"
 WGLMakie = "0.13.13"
